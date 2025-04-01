@@ -1,5 +1,5 @@
 {% set name = "propelauth_py" %}
-{% set version = "4.2.4" %}
+{% set version = "4.2.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/propelauth-py-{{ version }}.tar.gz
-  sha256: 746d1c3cc0117d2d57dd03da3513f6e0d3607cd80580b537549b9058755fe244
+  sha256: 63766bf1b59bb22f777339328cacce443f962bddd943d5556f1d5a0782153386
 
 build:
   noarch: python
