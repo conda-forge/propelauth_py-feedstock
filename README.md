@@ -27,7 +27,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-propelauth_py-green.svg)](https://anaconda.org/conda-forge/propelauth_py) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/propelauth_py.svg)](https://anaconda.org/conda-forge/propelauth_py) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/propelauth_py.svg)](https://anaconda.org/conda-forge/propelauth_py) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/propelauth_py.svg)](https://anaconda.org/conda-forge/propelauth_py) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-propelauth__py-green.svg)](https://anaconda.org/conda-forge/propelauth_py) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/propelauth_py.svg)](https://anaconda.org/conda-forge/propelauth_py) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/propelauth_py.svg)](https://anaconda.org/conda-forge/propelauth_py) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/propelauth_py.svg)](https://anaconda.org/conda-forge/propelauth_py) |
 
 Installing propelauth_py
 ========================
