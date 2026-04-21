@@ -1,5 +1,5 @@
 {% set name = "propelauth_py" %}
-{% set version = "4.3.2" %}
+{% set version = "4.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e9542011605ecad06a2ef15b84cf9ed1f6d6c50c48b6c5bf53a92e95717a0580
+  sha256: 0767ff4765db9eeb71a4097f3e92a890e6cd53422fcfa813e0ed03a8e048b5b4
 
 build:
   noarch: python
@@ -22,10 +22,10 @@ requirements:
   run:
     - httpx >=0.28.1
     - python >={{ python_min }}
-    - pyjwt >=2,<3
+    - pyjwt <3,>=2
     # upstream specifies pyjwt[crytpro]
     - cryptography >=3.4.0
-    - requests
+    - requests 
 
 test:
   imports:
