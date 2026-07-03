@@ -25,12 +25,13 @@ requirements:
   run:
     - python >=${{ python_min }}
     - httpx >=0.28.1
-    - pyjwt <3,>=2
+    - pyjwt >=2.0,<3.0
     - requests
 
 tests:
   - python:
       imports:
+        - propelauth_py
       pip_check: true
       python_version:
         - ${{ python_min }}.*
@@ -43,6 +44,7 @@ about:
   summary: A python authentication library
   description: |
     A python authentication library
+  repository: https://github.com/propelauth/propelauth-py
 
 extra:
   recipe-maintainers:
