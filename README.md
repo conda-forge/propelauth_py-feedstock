@@ -9,6 +9,8 @@ Package license: MIT
 
 Summary: A python authentication library
 
+Development: https://github.com/propelauth/propelauth-py
+
 A python authentication library
 
 Current build status
