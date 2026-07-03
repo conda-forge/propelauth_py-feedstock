@@ -5,7 +5,7 @@ context:
   version: "4.4.0"
 
 package:
-  name: propelauth-py
+  name: propelauth_py
   version: ${{ version }}
 
 source:
