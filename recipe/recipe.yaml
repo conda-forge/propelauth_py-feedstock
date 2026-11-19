@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "4.4.0"
+  version: "4.5.0"
 
 package:
   name: propelauth_py
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/propelauth-py/propelauth_py-${{ version }}.tar.gz
-  sha256: 0767ff4765db9eeb71a4097f3e92a890e6cd53422fcfa813e0ed03a8e048b5b4
+  sha256: 454c37e5e8ede6075b6717c6b7eeb379516fcdd409d5354397012f92768d7607
 
 build:
   number: 0
